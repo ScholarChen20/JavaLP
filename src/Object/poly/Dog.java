@@ -3,6 +3,10 @@ package Object.poly;
 import Object.poly.Animal;
 
 public class Dog extends Animal {
+    public Dog(String name, int age, String color) {
+        super();
+    }
+
     public void cry(){
         System.out.println(" dog cry");
     }
